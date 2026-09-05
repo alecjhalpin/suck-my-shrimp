@@ -13,7 +13,7 @@
     {
       "binding": "DB",
       "database_name": "suck-my-shrimp-launch-list",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "1adaeeb8-8fbf-49c8-b72c-0dba1b7e228e",
       "migrations_dir": "drizzle"
     }
   ],
