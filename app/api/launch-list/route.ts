@@ -40,10 +40,9 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
         <td align="center">
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;background:#082b49;border:2px solid #55d3c5;">
             <tr>
-              <td style="padding:42px 36px 12px;text-align:center;">
-                <div style="color:#55d3c5;font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase;">Suck My Shrimp</div>
-                <div style="margin-top:18px;font-size:64px;line-height:1;">🦐</div>
-                <h1 style="margin:16px 0 0;color:#fff2d2;font-size:38px;line-height:1;text-transform:uppercase;">You’re on the hook.</h1>
+              <td style="padding:28px 24px 12px;text-align:center;">
+                <img src="https://suckmyshrimp.com/assets/mascot.webp" width="420" alt="Suck My Shrimp hooked shrimp mascot" style="display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border:0;" />
+                <h1 style="margin:20px 0 0;color:#fff2d2;font-size:38px;line-height:1;text-transform:uppercase;">You’re on the hook.</h1>
               </td>
             </tr>
             <tr>
