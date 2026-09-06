@@ -41,7 +41,7 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;background:#082b49;border:2px solid #55d3c5;">
             <tr>
               <td style="padding:28px 24px 12px;text-align:center;">
-                <img src="https://suckmyshrimp.com/assets/mascot.webp" width="420" alt="Suck My Shrimp hooked shrimp mascot" style="display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border:0;" />
+                <img src="https://suckmyshrimp.com/assets/mascot-transparent-email.png" width="420" alt="Suck My Shrimp hooked shrimp mascot" style="display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border:0;" />
                 <h1 style="margin:20px 0 0;color:#fff2d2;font-size:38px;line-height:1;text-transform:uppercase;">You’re on the hook.</h1>
               </td>
             </tr>
@@ -52,8 +52,8 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
               </td>
             </tr>
             <tr>
-              <td style="padding:20px 28px;background:#ff5a36;color:#ffffff;text-align:center;font-size:12px;letter-spacing:1px;text-transform:uppercase;">
-                Saltwater gear with an attitude
+              <td style="padding:0;background:#ff5a36;text-align:center;">
+                <a href="https://suckmyshrimp.com/" style="display:block;padding:21px 28px;color:#ffffff;font-size:13px;font-weight:800;letter-spacing:1.5px;text-decoration:none;text-transform:uppercase;">Visit Suck My Shrimp →</a>
               </td>
             </tr>
           </table>
