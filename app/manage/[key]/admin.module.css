@@ -1,0 +1,19 @@
+.page { min-height:100vh; background:#041c30; color:#fff2d2; padding:42px clamp(18px,5vw,72px) 70px; }
+.shell { max-width:1180px; margin:0 auto; }
+.header { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:34px; }
+.eyebrow { margin:0 0 10px; color:#55d3c5; font-size:12px; font-weight:900; letter-spacing:.18em; text-transform:uppercase; }
+.title { margin:0; font-size:clamp(38px,6vw,70px); line-height:.9; letter-spacing:-.055em; text-transform:uppercase; }
+.export { display:inline-flex; align-items:center; padding:13px 17px; border:2px solid #fff2d2; background:#ff5a36; color:white; font-weight:900; text-transform:uppercase; letter-spacing:.06em; box-shadow:5px 5px 0 #55d3c5; }
+.stats { display:grid; grid-template-columns:repeat(2,minmax(0,260px)); gap:16px; margin-bottom:28px; }
+.stat { border:1px solid #ffffff2e; background:#082b49; padding:22px; }
+.stat span { display:block; color:#9dc5c2; font-size:11px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
+.stat strong { display:block; margin-top:8px; font-size:34px; }
+.panel { overflow:hidden; border:2px solid #55d3c5; background:#082b49; box-shadow:8px 8px 0 #ff5a36; }
+.table { width:100%; border-collapse:collapse; }
+.table th,.table td { padding:16px 18px; text-align:left; border-bottom:1px solid #ffffff1f; }
+.table th { color:#55d3c5; font-size:11px; letter-spacing:.12em; text-transform:uppercase; }
+.table td { font-size:14px; }
+.table tr:last-child td { border-bottom:0; }
+.empty { padding:48px 20px; text-align:center; color:#9dc5c2; }
+.note { margin:24px 0 0; color:#9dc5c2; font-size:12px; }
+@media(max-width:700px) { .header { align-items:flex-start; flex-direction:column; } .stats { grid-template-columns:1fr 1fr; } .panel { overflow-x:auto; } .table { min-width:650px; } }
