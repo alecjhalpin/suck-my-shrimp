@@ -13,7 +13,7 @@ export default function Home() {
   return <main>
     <nav className="nav-shell" aria-label="Main navigation">
       <a className="nav-brand" href="#top" aria-label="Suck My Shrimp home"><span className="wordmark-crop"><Image src="/assets/modern-wordmark.webp" alt="Suck My Shrimp" width={1774} height={887} priority /></span></a>
-      <div className="nav-links"><a href="#drop">First drop</a><a href="#story">Our story</a></div>
+      <div className="nav-links"><a href="/shop">Shop</a><a href="#drop">First drop</a><a href="#story">Our story</a></div>
       <a className="nav-cta" href="#launch-list">Get first dibs <ArrowDownRight size={17} /></a>
     </nav>
 
@@ -22,7 +22,7 @@ export default function Home() {
         <div className="eyebrow"><Waves size={16} /> Born for saltwater</div>
         <h1>Serious gear.<br/><span>Ridiculous name.</span></h1>
         <p>Premium fishing apparel for anglers who can land a redfish and take a joke.</p>
-        <div className="hero-actions"><a className="button button-coral" href="#drop">See the first drop <ArrowDownRight size={20} /></a><a className="text-link" href="#launch-list">Join the launch list <ArrowUpRight size={18} /></a></div>
+        <div className="hero-actions"><a className="button button-coral" href="/shop">Shop the first drop <ArrowDownRight size={20} /></a><a className="text-link" href="#launch-list">Join the launch list <ArrowUpRight size={18} /></a></div>
         <div className="hero-proof"><span><Check size={15}/> Built for the water</span><span><Check size={15}/> Small-batch first drop</span><span><Check size={15}/> No boring fishing shirts</span></div>
       </div>
       <div className="hero-art" aria-label="Suck My Shrimp mascot illustration">
@@ -34,12 +34,12 @@ export default function Home() {
     <div className="ticker" aria-hidden="true"><div>FISH HARD • LAUGH HARDER • SALTWATER READY • FISH HARD • LAUGH HARDER • SALTWATER READY •</div></div>
 
     <section id="drop" className="drop-section">
-      <div className="section-heading"><div><span className="section-number">01</span><span className="eyebrow">The opening lineup</span></div><h2>First drop.<br/>No filler.</h2><p>Four pieces. Three marks. One very loud shrimp. Final materials and pricing land before launch.</p></div>
+      <div className="section-heading"><div><span className="section-number">01</span><span className="eyebrow">The opening lineup</span></div><h2>First drop.<br/>No filler.</h2><p>Four pieces. Three marks. One very loud shrimp. Explore the Founders Drop with target pricing while the gear moves through sample approval.</p></div>
       <div className="product-grid">{products.map((product, index) => <article className={product.className} key={product.name}>
-        <div className="product-media"><Image src={product.image} alt={`${product.name} concept mockup`} fill sizes="(max-width: 800px) 100vw, 50vw" /><span className="coming-soon">Coming soon</span><span className="product-index">0{index + 1}</span></div>
+        <div className="product-media"><Image src={product.image} alt={`${product.name} concept mockup`} fill sizes="(max-width: 800px) 100vw, 50vw" /><span className="coming-soon">Sample stage</span><span className="product-index">0{index + 1}</span></div>
         <div className="product-info"><span>{product.kind}</span><h3>{product.name}</h3><p>{product.copy}</p><ul>{product.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul></div>
       </article>)}</div>
-      <p className="concept-note">Concept previews shown. Final product details may evolve as samples are tested.</p>
+      <p className="concept-note">Concept previews shown. Explore target pricing and full product details in the shop.</p>
     </section>
 
     <section id="story" className="story-section">
